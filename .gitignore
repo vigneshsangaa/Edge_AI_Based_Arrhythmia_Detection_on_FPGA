@@ -1,0 +1,17 @@
+# Python
+*.pyc
+__pycache__/
+
+# VS Code
+.vscode/
+
+# Dataset
+ml/Dataset/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.h5
+*.pth
+*.pt

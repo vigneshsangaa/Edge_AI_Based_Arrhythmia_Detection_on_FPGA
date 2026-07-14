@@ -1,0 +1,205 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Jul 14 15:56:34 2026
+| Host         : DESKTOP-BB7QGR9 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ecg_top_methodology_drc_routed.rpt -pb ecg_top_methodology_drc_routed.pb -rpx ecg_top_methodology_drc_routed.rpx
+| Design       : ecg_top
+| Device       : xc7a35tftg256-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 31
++-----------+----------+------------------------------------------+--------+
+| Rule      | Severity | Description                              | Checks |
++-----------+----------+------------------------------------------+--------+
+| TIMING-18 | Warning  | Missing input or output delay            | 24     |
+| XDCH-2    | Warning  | Same min and max delay values on IO port | 7      |
++-----------+----------+------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[0] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[10] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[11] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[12] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[13] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[14] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[1] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[2] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[3] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[4] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[5] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[6] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[7] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[8] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_addr[9] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[0] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[1] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[2] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[3] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[4] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[5] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[6] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_data[7] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An input delay is missing on act_wr_en relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 2.000 ns has been defined on port 'rst_n' relative to clock sys_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock sys_clk 2.000 [get_ports rst_n]
+C:/Users/Sanga Vignesh/Documents/Programs/VERILOG/Arrhythmia_Detection/Arrhythmia_Detection.srcs/constrs_1/new/xdc_file.xdc (Line: 61)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same input delay of 2.000 ns has been defined on port 'trigger' relative to clock sys_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock sys_clk 2.000 [get_ports trigger]
+C:/Users/Sanga Vignesh/Documents/Programs/VERILOG/Arrhythmia_Detection/Arrhythmia_Detection.srcs/constrs_1/new/xdc_file.xdc (Line: 62)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'busy' relative to clock sys_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk 2.000 [get_ports busy]
+C:/Users/Sanga Vignesh/Documents/Programs/VERILOG/Arrhythmia_Detection/Arrhythmia_Detection.srcs/constrs_1/new/xdc_file.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'pred_class[0]' relative to clock sys_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk 2.000 [get_ports {pred_class[*]}]
+C:/Users/Sanga Vignesh/Documents/Programs/VERILOG/Arrhythmia_Detection/Arrhythmia_Detection.srcs/constrs_1/new/xdc_file.xdc (Line: 65)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'pred_class[1]' relative to clock sys_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk 2.000 [get_ports {pred_class[*]}]
+C:/Users/Sanga Vignesh/Documents/Programs/VERILOG/Arrhythmia_Detection/Arrhythmia_Detection.srcs/constrs_1/new/xdc_file.xdc (Line: 65)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'pred_class[2]' relative to clock sys_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk 2.000 [get_ports {pred_class[*]}]
+C:/Users/Sanga Vignesh/Documents/Programs/VERILOG/Arrhythmia_Detection/Arrhythmia_Detection.srcs/constrs_1/new/xdc_file.xdc (Line: 65)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'valid_out' relative to clock sys_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock sys_clk 2.000 [get_ports valid_out]
+C:/Users/Sanga Vignesh/Documents/Programs/VERILOG/Arrhythmia_Detection/Arrhythmia_Detection.srcs/constrs_1/new/xdc_file.xdc (Line: 64)
+Related violations: <none>
+
+
