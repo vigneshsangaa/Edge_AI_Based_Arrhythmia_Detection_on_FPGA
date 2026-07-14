@@ -363,3 +363,4 @@ Together, these results support the project's core premise: a 1D-CNN arrhythmia 
 
 ## License
 
+This project is licensed under the MIT License - see the `LICENSE` file for details.
